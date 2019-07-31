@@ -10,6 +10,9 @@
 
     <!-- css dependencies -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/brands.min.css">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <!-- header section -->
@@ -17,11 +20,11 @@
         <div class="container text-center">
           <img class="img-fluid" alt='Logo' src='./img/mira_logo2.png'/>    
           <div class="mt-4">
-            <p class="text-light">Star us on Github!
+            <p class="text-light" style="font-size: large">Star us on Github!
               <a class="github-button" href="https://github.com/oslabs-beta/MiraCloud" data-icon="octicon-star" data-size="standard" aria-label="Star oslabs-beta/MiraCloud on GitHub">Star</a>
             </p>
           </div>
-          <a class="btn btn-outline-light mt-2" href='#downloadDiv'>Download</a>
+          <a class="btn btn-outline-light mt-2" href='#downloadSection'>Download</a>
         </div>
     </div>
 
@@ -50,65 +53,69 @@
 
       <!-- image with right caption -->
       <div class="row" style="padding: 2em">
-        <div class="col-lg-9">
-          <img src="./img/miracloud_login.gif" class="img-fluid shadow" alt="demo">
-        </div>
-        <div class="col-lg-3 text-right">
+        <div class="col-lg-3 order-lg-2 text-lg-right">
           <h2 class="mt-4">Secure Login</h2>
           <hr>
           <p>use your AWS' IAM user keys to safely login in the app</p>
+        </div>
+        <div class="col-lg-9 order-lg-1">
+          <img src="./img/miracloud_login.gif" class="img-fluid shadow" alt="demo">
         </div>
       </div>
     </div>
 
     <!-- download section -->
-    <div class="jumbotron jumbotron-fluid pb-4 bg-light">
+    <div id="downloadSection" class="jumbotron jumbotron-fluid pb-4 m-0 pt-4 mt-4" style="background-color: rgb(248, 248, 248)">
       <div class="container text-center">
+        <h4 class="text-left mb-4">Choose your operating system to download MiraCloud ...</h4>
         <div class="row">
-          <div class="col-sm-4">
-            <h1>Apple</h1>
-          </div>
-          <div class="col-sm-4">
+          <a href="#" class="col-sm-4">
+            <i class="fab fa-apple fa-6x mb-4"></i>
+            <h1>MacOS</h1>
+          </a>
+          <a href="#" class="col-sm-4">
+            <i class="fab fa-windows fa-6x mb-4"></i>
             <h1>Windows</h1>
-          </div>
-          <div class="col-sm-4">
-            <h1>Linux</h1>
-          </div>
+          </a>
+          <a href="#" class="col-sm-4">
+            <i class="fab fa-ubuntu fa-6x mb-4"></i>
+            <h1>Ubuntu</h1>
+          </a>
         </div>
       </div> 
     </div>
 
     <!-- footer section -->
-    <div class="jumbotron jumbotron-fluid pt-4" style="background-color: #2e2e2e">
+    <div class="jumbotron jumbotron-fluid pt-4 m-0 pb-4" style="background-color: #2e2e2e">
       <footer class="container text-center text-light mt-4">
-        <h1 style="margin-bottom: 2em">Meet The Team!</h1>  
+        <h1 style="margin: 2em 0">Meet The Team!</h1>  
         <div class="row mt-4">  
           <div class="col-sm-3">
             <h6>Victoria Adnet</h6>
-            <hr class="bg-light">
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-github"></i>
+            <hr class="bg-light  my-2">
+            <a href="#" class="fab fa-linkedin fa-2x mx-2"></a>
+            <a href="#" class="fab fa-github fa-2x mx-2"></a>
           </div>
           <div class="col-sm-3">
             <h6>Gilbert Hamirez</h6>
-            <hr class="bg-light">
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-github"></i>
+            <hr class="bg-light  my-2">
+            <a href="#" class="fab fa-linkedin fa-2x mx-2"></a>
+            <a href="#" class="fab fa-github fa-2x mx-2"></a>
           </div>
           <div class="col-sm-3">
             <h6>Tarlan Gardashow</h6>
-            <hr class="bg-light">
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-github"></i>
+            <hr class="bg-light  my-2">
+            <a href="#" class="fab fa-linkedin fa-2x mx-2"></a>
+            <a href="#" class="fab fa-github fa-2x mx-2"></a>
           </div>
           <div class="col-sm-3">
             <h6>Rachel Kim</h6>
-            <hr class="bg-light">
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-github"></i>
+            <hr class="bg-light my-2">
+            <a href="#" class="fab fa-linkedin fa-2x mx-2"></a>
+            <a href="#" class="fab fa-github fa-2x mx-2"></a>
           </div>
         </div>
-        <p> copyright</p>
+        <p class="mt-4 pt-4"> copyright</p>
       </footer>
     </div>
 
