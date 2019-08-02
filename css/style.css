@@ -5,3 +5,25 @@ a {
 a:hover {
     color: rgb(71, 71, 71);
 }
+
+#collab_name{
+    /* margin: 50px auto 10px 10px; */
+    color: white;
+    font-size: .75em;
+  }
+  
+#collab_card{
+    display: block;
+    color: white;
+    font-size: .75em;
+}
+
+#collab_link{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+#collab_link:hover{
+    color: #5395f185;
+}
