@@ -18,6 +18,10 @@ a:hover {
     font-size: .75em;
 }
 
+/* .shadow{
+    box-shadow: 0 6px 15px 9px rgba(72,72,72,.4);
+} */
+
 #collab_link{
     color: white;
     text-decoration: none;

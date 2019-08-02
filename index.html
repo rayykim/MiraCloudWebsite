@@ -16,33 +16,29 @@
   </head>
   <body>
     <!-- header section -->
-    <div class="jumbotron jumbotron-fluid pb-4" style="background: linear-gradient(#5073a8, #d3c2d5)">
-        <div class="container text-center">
-          <img class="img-fluid" alt='Logo' src='./img/mira_logo2.png'/>    
-          <div class="mt-4">
-            <p class="text-light" style="font-size: large">Star us on Github!
-              <a class="github-button" href="https://github.com/oslabs-beta/MiraCloud" data-icon="octicon-star" data-size="standard" aria-label="Star oslabs-beta/MiraCloud on GitHub">Star</a>
-            </p>
-          </div>
-          <a class="btn btn-outline-light mt-2" href='#downloadSection'>Download</a>
+    <div class="jumbotron jumbotron-fluid pb-4" style="height: 30rem; background: linear-gradient(#5073a8, #d3c2d5)" >
+      <div class="container text-center">
+        <img style='margin-top: 5rem' class="img-fluid" alt='Logo' src='./img/mira_logo2.png'/>  
+        <!-- intro -->
+        <p style='margin-top: 1.3rem'>
+          <span class='text-light' style="font-size: medium">Visualizer and configuration tool for your AWS services</span>
+        </p>  
+        <div style='margin-top:6rem'>
+          <p class="text-light" style="font-size: large">Star us on Github!
+            <a class="github-button" href="https://github.com/oslabs-beta/MiraCloud" data-icon="octicon-star" data-size="standard" aria-label="Star oslabs-beta/MiraCloud on GitHub">Star</a>
+          </p>
         </div>
+        <a class="btn btn-outline-light mt-2" href='#downloadSection'>Download</a>
+      </div>
     </div>
 
     <!-- main container -->
     <div class="container">
 
-      <!-- intro -->
-      <p> <span style="font-size: 1.8em">MiraCloud</span> is a Desktop app that 
-          allows you to visualize, manage and configure 
-          some of your AWS services. It provides a clean user 
-          interface to launch, delete, stop, pause and even 
-          connect your instances.
-      </p>
-
       <!-- image with left caption -->
       <div class="row" style="padding: 4em 2em">
         <div class="col-lg-3">
-          <h2 class="mt-4">Secure Login</h2>
+          <h2 class="mt-1">Secure Login</h2>
           <hr>
           <p>use your AWS' IAM user keys to safely login in the app</p>
         </div>
@@ -53,13 +49,13 @@
 
       <!-- image with right caption -->
       <div class="row" style="padding: 2em">
-        <div class="col-lg-3 order-lg-2 text-lg-right">
-          <h2 class="mt-4">Secure Login</h2>
+        <div class="col-lg-3 order-lg-2 text-lg-left">
+          <h2 class="mt-4">Manage Instances</h2>
           <hr>
-          <p>use your AWS' IAM user keys to safely login in the app</p>
+          <p>Visualize and configure all your services in all regions</p>
         </div>
         <div class="col-lg-9 order-lg-1">
-          <img src="./img/miracloud_login.gif" class="img-fluid shadow" alt="demo">
+          <img src="./img/miracloud_instance.gif" class="img-fluid shadow" alt="demo">
         </div>
       </div>
     </div>
@@ -67,19 +63,19 @@
     <!-- download section -->
     <div id="downloadSection" class="jumbotron jumbotron-fluid pb-4 m-0 pt-4 mt-4" style="background-color: rgb(248, 248, 248)">
       <div class="container text-center">
-        <h4 class="text-left mb-4">Choose your operating system to download MiraCloud ...</h4>
+        <h4 class="text-left mb-4" style="font-size: large; font-style: italic">Choose your operating system to download MiraCloud</h4>
         <div class="row">
           <a href="#" class="col-sm-4">
-            <i class="fab fa-apple fa-6x mb-4"></i>
-            <h1>MacOS</h1>
+            <i class="fab fa-apple fa-3x mb-4"></i>
+            <h5>MacOS</h5>
           </a>
           <a href="#" class="col-sm-4">
-            <i class="fab fa-windows fa-6x mb-4"></i>
-            <h1>Windows</h1>
+            <i class="fab fa-windows fa-3x mb-4"></i>
+            <h5>Windows</h5>
           </a>
           <a href="#" class="col-sm-4">
-            <i class="fab fa-ubuntu fa-6x mb-4"></i>
-            <h1>Ubuntu</h1>
+            <i class="fab fa-ubuntu fa-3x mb-4"></i>
+            <h5>Ubuntu</h5>
           </a>
         </div>
       </div> 
